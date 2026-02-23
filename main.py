@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 # -----------------------------
 # Load Data
 # -----------------------------
+# it help to load the data from csv file and return the charts 
+
 def load_data():
     try:
         df = pd.read_csv("data.csv")
@@ -82,6 +84,7 @@ def main():
             break
         else:
             print("⚠️ Invalid choice. Try again.")
+            print("Sorry couldnot found the data")
 
 # -----------------------------
 # Run Program
