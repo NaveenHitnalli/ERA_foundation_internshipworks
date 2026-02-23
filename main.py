@@ -84,7 +84,8 @@ def main():
             break
         else:
             print("⚠️ Invalid choice. Try again.")
-            print("Sorry couldnot found the data")
+            
+
 
 # -----------------------------
 # Run Program
